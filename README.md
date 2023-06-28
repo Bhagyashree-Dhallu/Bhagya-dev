@@ -16,8 +16,8 @@ mysql -u root -p <your pass>
 
 # Create a Database
 ```
-create database anand;
-use anand;
+create database bhagya;
+use bhagya;
 ```
 
 # Create a Table
@@ -36,7 +36,7 @@ CREATE TABLE accounts (
 
 ## Create a User and assign specific permissions
 ```
-CREATE USER 'root'@'%' IDENTIFIED BY 'Anand@123';
+CREATE USER 'root'@'%' IDENTIFIED BY 'Test@123';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 FLUSH PRIVILEGES;
 ```
