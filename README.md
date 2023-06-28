@@ -9,7 +9,7 @@ systemctl status mysqld.service
 mysql_secure_installation
 ```
 
-# Create a DB and table
+# Create a DB and table 
 ```
 mysql -u root -p <your pass>
 ```
